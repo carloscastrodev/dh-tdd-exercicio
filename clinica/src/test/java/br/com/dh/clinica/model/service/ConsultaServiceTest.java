@@ -32,7 +32,7 @@ class ConsultaServiceTest {
 	@MockBean
 	private ConsultaRepository consultaRepository;
 	
-	Consulta consultaMock1, consultaMock2;
+	private Consulta consultaMock1, consultaMock2;
 	
 	@BeforeEach
 	void setup(){
